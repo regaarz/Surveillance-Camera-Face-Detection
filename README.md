@@ -99,7 +99,7 @@ $ pip3 install -r requirements.txt
 ```
 $ python3 main.py
 ```
-![](img_plugin/plugin_parking.jpeg)
+![](img_camera/Surveillance.jpg)
    
 ### Contact
 For any questions, suggestions, or concerns regarding the Plugin Application, please feel free to contact the repository owner 
