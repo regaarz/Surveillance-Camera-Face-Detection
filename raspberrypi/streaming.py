@@ -1,5 +1,3 @@
-
-
 import cv2
 import io
 import logging
@@ -76,11 +74,9 @@ class StreamingServer(socketserver.ThreadingMixIn, server.HTTPServer):
     allow_reuse_address = True
     daemon_threads = True
 
-
 picam2 = Picamera2()
 picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888',"size": (3264, 2448)}))
 picam2.start()
-
 
 output = StreamingOutput()
 
@@ -103,5 +99,3 @@ try:
     server.serve_forever()
 finally:
     picam2.stop_recording()
-
-
