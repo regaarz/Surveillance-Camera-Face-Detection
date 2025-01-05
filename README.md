@@ -100,7 +100,7 @@ $ pip3 install -r requirements.txt
 $ python3 main.py
 ```
 ![](img_camera/Surveillance.jpg)
-![](img_camera/Screenshot from 2025-01-06 00-26-46.png)
+![](img_camera/Detection.jpg)
 
 
    
