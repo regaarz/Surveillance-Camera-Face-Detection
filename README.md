@@ -9,12 +9,35 @@
 * Ridho Rizky Razami
 
 ### Introduction
-Electrical Engineering Microcomputer Course Assignment
-This project demonstrates how to stream live video using Picamera2 with MJPEG format. The application serves the stream over HTTP, accessible from a browser.
+This project is a Raspberry Pi-based surveillance camera system equipped with special capabilities to meet the needs of surveillance and user interaction. The system uses a fisheye camera to capture multiple viewpoints in a single camera, effectively providing wide-area coverage.
+
+## Key Features
+
+1. Multi-View with Fisheye Camera
+The fisheye camera is used to capture images from multiple viewpoints in a single capture, allowing:
+*Extensive monitoring without the need for multiple cameras.
+*Multi-view display that is visualized directly on the user interface.
+
+2. Face Detection and Hand Gesture
+*The system is capable of detecting faces for various purposes such as:
+*Automatic attendance through face recognition.
+*Hand gestures are used to perform interactions, such as confirming presence with certain gestures.
+3. User Interface
+*The laptop or computer-based interface displays only the control menu and visualization results from the camera.
+*The menu on the interface includes:
+Multi-view display of the fisheye camera.
+Face registration, where users can add new face data for attendance purposes.
+Face and hand gesture detection monitoring.
+4. Raspberry Pi-based Process
+*All camera processing (face and gesture detection) is done directly on the Raspberry Pi, thus:
+*Laptop or computer only serves as display media (not burdened by heavy processing).
+*The system remains efficient and power efficient.
+
+Translated with DeepL.com (free version)
 
 ### Requirements
 ```
-
+bentar
 ```
 
 ### How to Run in Raspberry Pi| Usage
