@@ -8,7 +8,7 @@
 * Fahri Fahrezi
 * Ridho Rizky Razami
 
-### Introduction
+## Introduction
 This project is a Raspberry Pi-based surveillance camera system equipped with special capabilities to meet the needs of surveillance and user interaction. The system uses a fisheye camera to capture multiple viewpoints in a single camera, effectively providing wide-area coverage.
 
 ## Key Features
@@ -32,8 +32,6 @@ Face and hand gesture detection monitoring.
 *All camera processing (face and gesture detection) is done directly on the Raspberry Pi, thus:
 *Laptop or computer only serves as display media (not burdened by heavy processing).
 *The system remains efficient and power efficient.
-
-Translated with DeepL.com (free version)
 
 ### Requirements
 ```
