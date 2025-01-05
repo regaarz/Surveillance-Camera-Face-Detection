@@ -57,7 +57,7 @@ $ sudo apt install -y python3-picamera2 python3-opencv
 ```
 5. Clone Repository
 ```
-$ https://github.com/regaarz/Surveillance-Camera-Face-Detection.git
+$ git clone https://github.com/regaarz/Surveillance-Camera-Face-Detection.git
 ```
 6. Navigate file
 ```
@@ -65,7 +65,7 @@ cd Tubes-Mikrokomputer/raspberrypi
 ```
 7. Run Code
 ```
-python3 streaming
+python3 streaming.py
 ```
 6. Access the stream
 ```
