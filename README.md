@@ -33,9 +33,11 @@ Face and hand gesture detection monitoring.
 *Laptop or computer only serves as display media (not burdened by heavy processing).
 *The system remains efficient and power efficient.
 
-### Requirements
+### Requirements in Laptop
 ```
-bentar
+
+
+
 ```
 
 ### How to Run in Raspberry Pi| Usage
@@ -50,16 +52,24 @@ $ sudo raspi-config
 ```
 $ sudo apt install -y python3-picamera2 python3-opencv
 ```
-5. Run the code 
+5. Clone Repository
 ```
-$ python3 main.py
+$ https://github.com/regaarz/Surveillance-Camera-Face-Detection.git
+```
+6. Navigate file
+```
+cd Tubes-Mikrokomputer/raspberrypi
+```
+7. Run Code
+```
+python3 streaming
 ```
 6. Access the stream
 ```
 $ http://<raspberrypi.local:8000
 ```
 
-### How to Run in Laptop| Usage
+### How to Run in Desktop| Usage
 To use Surveillance Camera, follow these steps :
 1. Open the Surveillance directory in the terminal.
 2. Build the virtual environment:
@@ -70,27 +80,19 @@ $ virtualenv venv
 ```
 $ source venv/bin/activate
 ```
-4. Navigate to the plugin directory:
+4. Navigate to surveillance camera:
 ```
-$ cd src/surveillance
+$ cd Tubes-Mikrokomputer
 ```
 5. Clone the repository :
 ```
 $ git clone https://github.com/regaarz/Surveillance-Camera-Face-Detection.git
 ```
-5. Navigate to surveillance camera:
+6. Install requirements:
 ```
-$ cd surveillance-camera
+$ pip3 install -r requirements.txt
 ```
-8. Install requirements:
-```
-$ pip install -r requirements.txt
-```
-9. Back to the *src* directory:
-```
-$ cd ../../
-```
-10. Run the System:
+7. Run the System:
 ```
 $ python3 main.py
 
