@@ -4,10 +4,10 @@ This project demonstrates how to stream live video using Picamera2 with MJPEG fo
 
 Requirements
 Hardware
-Raspberry Pi (tested with Raspberry Pi 4)
-Camera Module compatible with Picamera2
+- Raspberry Pi (tested with Raspberry Pi 4)
+- Camera Module compatible with Picamera2
 Software
-Python 3
-Picamera2 library
-OpenCV library
+- Python 3
+- Picamera2 library
+- OpenCV library
 Dependencies for Picamera2
