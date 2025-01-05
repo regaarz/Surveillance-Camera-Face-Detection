@@ -35,9 +35,12 @@ Face and hand gesture detection monitoring.
 
 ### Requirements in Laptop
 ```
-
-
-
+opencv-python
+mediapipe
+scikit-learn
+qt-material
+face-recognition
+PyQt6
 ```
 
 ### How to Run in Raspberry Pi| Usage
