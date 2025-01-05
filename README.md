@@ -98,7 +98,8 @@ $ pip3 install -r requirements.txt
 7. Run the System:
 ```
 $ python3 main.py
-
+```
+![](img_plugin/plugin_parking.jpeg)
    
 ### Contact
 For any questions, suggestions, or concerns regarding the Plugin Application, please feel free to contact the repository owner 
