@@ -78,9 +78,9 @@ $ cd src/surveillance
 ```
 $ git clone https://github.com/regaarz/Surveillance-Camera-Face-Detection.git
 ```
-5. Navigate to car parking plugin:
+5. Navigate to surveillance camera:
 ```
-$ cd moilapp-plugin-car-parking-systems
+$ cd surveillance-camera
 ```
 8. Install requirements:
 ```
@@ -90,7 +90,7 @@ $ pip install -r requirements.txt
 ```
 $ cd ../../
 ```
-10. Run the Moilapp:
+10. Run the System:
 ```
 $ python3 main.py
 
